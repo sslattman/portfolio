@@ -1,0 +1,210 @@
+$text-color: #233C30;
+$accent-color: #124C82;
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+// navbar
+.navbar {
+    font-family: Arial, sans-serif;
+    display: flex; // Use flexbox for layout
+    justify-content: space-between; //equal spacing between the brand + links
+    align-items: center; // Center items vertically
+    background-color: #C6E0CD;
+
+    .brand {
+        font-size: 24px;
+        color: #124C82;
+        padding: 10px 20px;
+        text-decoration: none;
+    }
+
+    .nav-links {
+        display: flex;
+
+        a {
+            color: #233C30;
+            text-align: center;
+            text-decoration: none;
+            font-size: 17px;
+            padding: 14px 16px;
+
+            &:hover {
+                color: white;
+            }
+        }
+    }
+}
+
+// footer
+.footer {
+    font-family: Arial, sans-serif;
+    display: flex; // Use flexbox for layout
+    justify-content: center; //equal spacing between the brand + links
+    align-items: center; // Center items vertically
+    background-color: #C6E0CD;
+
+    .text {
+        color: #233C30;
+        font-size: 15px;
+        padding: 5px;
+    }
+}
+
+// homepage
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 100px;
+    box-sizing: border-box;
+    color: #233C30;
+
+    .headshot {
+        margin-right: 50px;
+        flex: 0 1 auto;
+    }
+
+    img {
+        border-radius: 20px;
+    }
+
+    .aboutme {
+        width: 350px;
+    }
+}
+
+
+// journalism
+.journalism-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 100px;
+    box-sizing: border-box;
+    color: #233C30;
+
+    a {
+        color: #233C30;
+
+        &:hover {
+            background-color: #c6e0cd;
+            text-decoration: none;
+        }
+    }
+
+    .about {
+        display: flex;
+        align-items: center;
+
+        .crimson {
+            margin-right: 50px;
+            flex: 0 1 auto;
+        }
+
+        .aboutme {
+            max-width: 350px;
+            flex: 0 1 auto;
+        }
+    }
+
+    .articles {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+
+        p {
+            margin-bottom: 0;
+        }
+    }
+}
+
+//writing
+
+.writing-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 100px;
+    box-sizing: border-box;
+    color: #233C30;
+
+    h1 {
+        font-size: 50px;
+    }
+
+    .description {
+        text-align: center;
+        max-width: 500px;
+        font-size: 20px;
+    }
+}
+
+.contact-container {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+    min-height: 100vh;
+
+    .heading {
+        margin-bottom: 30px;
+        color: $text-color;
+        max-width: 400px;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        color: $text-color;
+        max-width: 400px;
+
+        label {
+            margin-bottom: 10px;
+        }
+
+        input {
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #000000;
+            border-radius: 0px;
+            min-width: none;
+        }
+
+        textarea {
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #000000;
+            border-radius: 0px;
+            min-width: none;
+            resize: vertical;
+        }
+
+        button {
+            padding: 10px 15px;
+            background-color: #0088E9;
+            color: white;
+            border: none;
+            border-radius: 0px;
+            cursor: pointer;
+            max-width: 100px;
+            min-height: 50px;
+
+            &:hover {
+                background-color: #3096de;
+            }
+        }
+
+    }
+}
