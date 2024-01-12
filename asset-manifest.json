@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/sagelattman.github.io/static/css/main.bb15d38f.css",
-    "main.js": "/sagelattman.github.io/static/js/main.f4486e95.js",
-    "static/js/787.0f15b36d.chunk.js": "/sagelattman.github.io/static/js/787.0f15b36d.chunk.js",
-    "static/media/greatwalk.png": "/sagelattman.github.io/static/media/greatwalk.ed652d553e197d6893af.png",
-    "static/media/headshot.jpg": "/sagelattman.github.io/static/media/headshot.770641440d3b3fcf7444.jpg",
-    "static/media/crimson.png": "/sagelattman.github.io/static/media/crimson.a5fd42b7b6f9dde28559.png",
-    "static/media/logo.svg": "/sagelattman.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/sagelattman.github.io/index.html",
-    "main.bb15d38f.css.map": "/sagelattman.github.io/static/css/main.bb15d38f.css.map",
-    "main.f4486e95.js.map": "/sagelattman.github.io/static/js/main.f4486e95.js.map",
-    "787.0f15b36d.chunk.js.map": "/sagelattman.github.io/static/js/787.0f15b36d.chunk.js.map"
+    "main.css": "/portfolio/static/css/main.bb15d38f.css",
+    "main.js": "/portfolio/static/js/main.b4f108eb.js",
+    "static/js/787.0f15b36d.chunk.js": "/portfolio/static/js/787.0f15b36d.chunk.js",
+    "static/media/greatwalk.png": "/portfolio/static/media/greatwalk.ed652d553e197d6893af.png",
+    "static/media/headshot.jpg": "/portfolio/static/media/headshot.770641440d3b3fcf7444.jpg",
+    "static/media/crimson.png": "/portfolio/static/media/crimson.a5fd42b7b6f9dde28559.png",
+    "static/media/logo.svg": "/portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/portfolio/index.html",
+    "main.bb15d38f.css.map": "/portfolio/static/css/main.bb15d38f.css.map",
+    "main.b4f108eb.js.map": "/portfolio/static/js/main.b4f108eb.js.map",
+    "787.0f15b36d.chunk.js.map": "/portfolio/static/js/787.0f15b36d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bb15d38f.css",
-    "static/js/main.f4486e95.js"
+    "static/js/main.b4f108eb.js"
   ]
 }
