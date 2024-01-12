@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #ffffff;
+  min-height: 100vh;
 }
 
 .navbar {
@@ -22,7 +23,7 @@ body {
   display: flex;
 }
 .navbar .nav-links a {
-  color: #233C30;
+  color: #305342;
   text-align: center;
   text-decoration: none;
   font-size: 17px;
@@ -49,7 +50,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 95vh;
   padding: 100px;
   box-sizing: border-box;
   color: #233C30;
@@ -60,6 +61,13 @@ body {
 }
 .container img {
   border-radius: 20px;
+}
+.container a {
+  color: #233C30;
+}
+.container a:hover {
+  background-color: #c6e0cd;
+  text-decoration: none;
 }
 .container .aboutme {
   width: 350px;
@@ -120,26 +128,34 @@ body {
   max-width: 500px;
   font-size: 20px;
 }
+.writing-container .wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
 
 .contact-container {
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: center;
   margin: auto;
-  padding: 20px;
-  min-height: 100vh;
+  padding: 0px 20px;
+  min-height: 95vh;
+}
+.contact-container .text {
+  padding-top: 200px;
+  text-align: center;
+  color: #305342;
 }
 .contact-container .heading {
   margin-bottom: 30px;
-  color: #233C30;
+  color: #305342;
   max-width: 400px;
 }
 .contact-container .form {
   display: flex;
   flex-direction: column;
   width: 100%;
-  color: #233C30;
+  color: #305342;
   max-width: 400px;
 }
 .contact-container .form label {

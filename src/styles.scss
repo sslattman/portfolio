@@ -1,4 +1,4 @@
-$text-color: #233C30;
+$text-color: #305342;
 $accent-color: #124C82;
 
 body {
@@ -6,6 +6,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #ffffff;
+    min-height: 100vh;
 }
 
 // navbar
@@ -27,7 +28,7 @@ body {
         display: flex;
 
         a {
-            color: #233C30;
+            color: $text-color;
             text-align: center;
             text-decoration: none;
             font-size: 17px;
@@ -60,7 +61,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 95vh;
     padding: 100px;
     box-sizing: border-box;
     color: #233C30;
@@ -72,6 +73,15 @@ body {
 
     img {
         border-radius: 20px;
+    }
+
+    a {
+        color: #233C30;
+
+        &:hover {
+            background-color: #c6e0cd;
+            text-decoration: none;
+        }
     }
 
     .aboutme {
@@ -146,17 +156,27 @@ body {
         max-width: 500px;
         font-size: 20px;
     }
+
+    .wrapper{
+        display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+    }
 }
 
 .contact-container {
     display: flex;
     flex-direction:row;
-    align-items: center;
     justify-content: center;
     margin: auto;
-    padding: 20px;
-    min-height: 100vh;
+    padding: 0px 20px;
+    min-height: 95vh;
 
+    .text{
+        padding-top: 200px;
+        text-align: center;
+        color: $text-color;
+    }
     .heading {
         margin-bottom: 30px;
         color: $text-color;
